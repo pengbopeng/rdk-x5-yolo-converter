@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Toolchain logs / temp
+.hb_check/
+*.log
+model_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Do NOT commit converted models (outputs live on Desktop/MMDD_*)
+*.pt
+*.onnx
+*.bin
